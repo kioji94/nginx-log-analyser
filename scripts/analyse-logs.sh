@@ -7,6 +7,10 @@
 #
 # Usage: analyse-logs.sh [-n COUNT] LOGFILE
 
+# The awk programs below are deliberately single-quoted: $1, $2... are awk
+# fields, not shell variables, so SC2016 (no expansion in single quotes) is a
+# false positive for this whole file.
+# shellcheck disable=SC2016
 set -euo pipefail
 
 TOP_N=5
