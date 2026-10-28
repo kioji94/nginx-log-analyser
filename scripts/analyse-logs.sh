@@ -88,13 +88,13 @@ if (( skipped > 0 )); then
 fi
 
 report "Top $TOP_N IP addresses with the most requests:" \
-  "split($1, f, " "); if (f[1] != "") print f[1]"
+  'split($1, f, " "); if (f[1] != "") print f[1]'
 echo
 report "Top $TOP_N most requested paths:" \
-  "split($2, f, " "); print (f[2] == "" ? "-" : f[2])"
+  'split($2, f, " "); print (f[2] == "" ? "-" : f[2])'
 echo
 report "Top $TOP_N response status codes:" \
-  "split($3, f, " "); if (f[1] != "") print f[1]"
+  'split($3, f, " "); if (f[1] != "") print f[1]'
 echo
 report "Top $TOP_N user agents:" \
-  "print ($6 == "" ? "-" : $6)"
+  'print ($6 == "" ? "-" : $6)'
