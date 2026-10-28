@@ -181,17 +181,4 @@ bash tests/test.sh
 - Output as JSON or CSV
 - Read from stdin (`tail -n 10000 access.log | ...`)
 
-## Publish to GitHub
 
-```bash
-git init -b main
-git add .
-git commit -m "Add Nginx log analyser (Bash + PowerShell)"
-
-# with GitHub CLI
-gh repo create nginx-log-analyser --public --source=. --push
-
-# or manually: create an empty repo on github.com, then
-git remote add origin https://github.com/<your-username>/nginx-log-analyser.git
-git push -u origin main
-```
