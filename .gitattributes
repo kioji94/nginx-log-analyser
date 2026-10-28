@@ -1,0 +1,5 @@
+# Keep shell scripts and test data LF-only, even when cloned on Windows
+*.sh   text eol=lf
+*.log  text eol=lf
+tests/expected.txt text eol=lf
+*.ps1  text eol=crlf

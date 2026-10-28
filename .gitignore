@@ -1,0 +1,9 @@
+# Real logs can be huge and may contain personal data (IPs) - keep them out of git
+*.log
+!sample/*.log
+!tests/*.log
+
+# Scratch / OS files
+actual.txt
+.DS_Store
+Thumbs.db

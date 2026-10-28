@@ -1,0 +1,31 @@
+Top 5 IP addresses with the most requests:
+
+10.0.0.1 - 6 requests
+10.0.0.2 - 5 requests
+10.0.0.3 - 4 requests
+10.0.0.4 - 3 requests
+10.0.0.5 - 2 requests
+
+Top 5 most requested paths:
+
+/a - 6 requests
+/b - 5 requests
+/c - 4 requests
+/d - 3 requests
+/e - 2 requests
+
+Top 5 response status codes:
+
+200 - 11 requests
+404 - 4 requests
+401 - 3 requests
+500 - 2 requests
+304 - 1 request
+
+Top 5 user agents:
+
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0 - 7 requests
+curl/8.4.0 - 5 requests
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/605.1 - 4 requests
+Googlebot/2.1 (+http://www.google.com/bot.html) - 3 requests
+python-requests/2.31.0 - 2 requests
